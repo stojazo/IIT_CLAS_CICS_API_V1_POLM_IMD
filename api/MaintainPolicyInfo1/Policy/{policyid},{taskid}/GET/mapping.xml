@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:ZosConnectServiceMapping xmlns:ns2="http://www.ibm.com/zosConnect/2.0/zosConnectServiceMapping" mappingSpecVersion="1.0">
+    <mappingContext basePath="/iit/clas/polm/api/v1" relativePath="/MaintainPolicyInfo1/Policy/{policyid},{taskid}" method="GET" serviceName="IIT_CLAS_POLM_SRV_V1_MaintainPolicyInfo1" defaultResponseCode="200"/>
+    <requestMessage>
+        <mappingRootModel type="MSL" location="api/MaintainPolicyInfo1/Policy/{policyid},{taskid}/GET/request.map"/>
+    </requestMessage>
+    <responseMessages code="200" description="OK">
+        <mappingRootModel type="MSL" location="api/MaintainPolicyInfo1/Policy/{policyid},{taskid}/GET/response.map"/>
+    </responseMessages>
+</ns2:ZosConnectServiceMapping>

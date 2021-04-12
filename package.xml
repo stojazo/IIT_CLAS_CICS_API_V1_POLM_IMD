@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><zosConnectApi xmlns="http://www.ibm.com/zosConnect/2.0/zosConnectApi" id="IIT_CLAS_POLM_API_V1_MaintainPolicyInfo1">
+  <apiSpec title="IIT_CLAS_POLM_API_V1_MaintainPolicyInfo1" basePath="/iit/clas/polm/api/v1" description="Policy Inquire sample (gitlab test)" version="1.0.7">
+    <path relativePath="/MaintainPolicyInfo1/Policy/{policyid},{taskid}">
+      <method type="GET" zosConnectServiceRef="IIT_CLAS_POLM_SRV_V1_MaintainPolicyInfo1" httpXformFile="api/MaintainPolicyInfo1/Policy/{policyid},{taskid}/GET/mapping.xml" operationId="getPOLM01"/>
+      <method type="POST" zosConnectServiceRef="IIT_CLAS_POLM_SRV_V1_MaintainPolicyInfo1" httpXformFile="api/MaintainPolicyInfo1/Policy/{policyid},{taskid}/POST/mapping.xml" operationId="postPOLMU"/>
+      <method type="PUT" zosConnectServiceRef="IIT_CLAS_POLM_SRV_V1_MaintainPolicyInfo1" httpXformFile="api/MaintainPolicyInfo1/Policy/{policyid},{taskid}/PUT/mapping.xml" operationId="putIIT_CLAS_POLM_SRV_V1_MaintainPolicyInfo1"/>
+    </path>
+    <apiDoc docType="SWAGGER">api-docs/swagger.json</apiDoc>
+  </apiSpec>
+</zosConnectApi>
